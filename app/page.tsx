@@ -41,17 +41,17 @@ export default function Home() {
           />
         }
         shape="circle"
-        radius={220}
-        feather={0.4}
+        radius={130}
+        feather={0.28}
         revealOpacity={100}
-        followSpeed={0.15}
+        followSpeed={0.22}
         revealMode="hover"
         restingPosition="center"
-        enterDuration={300}
-        exitDuration={400}
+        enterDuration={200}
+        exitDuration={320}
         touchBehavior="follow"
-        edgeRing={{ enabled: true, color: "#ffffff", thickness: 1.5, opacity: 55 }}
-        style={{ width: VIDEO_WIDTH, height: VIDEO_HEIGHT }}
+        edgeRing={{ enabled: true, color: "#ffffff", thickness: 1, opacity: 45 }}
+        style={{ width: VIDEO_WIDTH, height: VIDEO_HEIGHT, maxWidth: "100%" }}
       />
     </div>
   );
